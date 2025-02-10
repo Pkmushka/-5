@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+body {
+    background: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+
+header {
+    background: #222;
+    padding: 20px 100px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+    header .logo {
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+header nav a{
+    color:#fff;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: all 500ms ease;
+}
+
+header nav a.btn{
+    padding: 5px;
+    border: 1px solid hotpink;
+    border-radius: 5px;
+
+}
+
+header nav a:hover{
+    color: #a1a1a1;
+
+}
+
+header nav a.btn:hover {
+    border-color: rgb(201, 130, 237);
+
+}
+
+
+aside{
+    float: center;
+    margin-top: 50px;
+    margin-right: 100px;
+    width: 500px;
+}
+
+aside .info {
+    background: rgb(215, 155, 255);
+    color: #000000;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    line-height:160%;
+    border-radius: 5px;
+}
+
+aside .info h2 {
+    margin-bottom: 10px;
+}
+
+aside img {
+    width:100%;
+    border: 5px solid #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+footer {
+    float: left;
+    width:100%;
+    box-sizing: border-box;
+    text-align: center;
+    background: #222;
+    padding: 30px;
+    color: #fff;
+    margin-top: 100px;
+}
+
+
+
+
+	 
+.menu ul li{
+	display: inline;
+}
+			 
+.menu ul li a{
+	float: center; 
+	text-decoration: none;
+	color: white; 
+	padding: 20px 15px;
+	background-color: #333; 
+
+}
+			 
+.menu ul li a:hover, .menu ul li .current{
+	
+	color: #fff;
+	background-color:rgb(215, 155, 255);
+}
+
+h3{
+	color:rgb(83, 126, 43);
+}
+
+b{
+	color:rgb(83, 126, 43);
+}
+.info_block {
+	overflow: hidden;
+	position: relative;
+    display: none;   
+}
+.info_block.hide {
+	height: 300px;
+    display: none;  
+}
+.info_block.hide:after{
+	content: "";
+	height: 100px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff 75%);
+    display: none;  
+}
+div.hidden
+{
+   display: none
+}
+
+button,
+button:active,
+button:focus  {
+  border:none;
+}
